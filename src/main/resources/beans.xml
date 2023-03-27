@@ -6,6 +6,4 @@
 
     <bean id="calculatorService" class="com.example.CalculatorServices">
     </bean>
-
-
 </beans>
