@@ -10,10 +10,10 @@ public class Main {
         ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 
         // Opción 1. Crear un objeto de forna normal
-        CalculatorServices service = new CalculatorServices();
+        Calculadora service = new Calculadora();
 
         // Opcion 2. Recibir  un objeto de Spring
-        CalculatorServices calculadora = (CalculatorServices) context.getBean("calculatorService");
+        Calculadora calculadora = (Calculadora) context.getBean("calculatorService");
 
 
         String texto = calculadora.holaMundo();

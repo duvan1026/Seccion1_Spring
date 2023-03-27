@@ -1,9 +1,9 @@
 package com.example;
 
-public class CalculatorServices {
+public class Calculadora {
 
 
-    public CalculatorServices(){
+    public Calculadora(){
         System.out.println("Ejecutando constructor calculatorService");
     }
 
